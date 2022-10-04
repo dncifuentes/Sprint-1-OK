@@ -1,0 +1,97 @@
+*{
+    margin:10px;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width:1200px
+}
+.padre{
+display: flex;
+flex-flow: column nowrap;
+}
+    .header{
+    background: rgb(236, 143, 13);
+    display: flex;
+    flex-flow: column nowrap;
+    
+    }
+    .menu{
+        background: rgb(127, 214, 96);
+        display: flex;
+        flex-flow: nowrap;
+    }
+    .logo{
+        background-color: crimson;
+       flex: 1 1 auto;
+    }
+    .nav{
+        background-color: crimson;
+        flex: 5 1 auto;
+        
+    }
+    .social{background-color: crimson;
+        flex: 1 1 auto;
+       
+
+    }
+    .textoprincipal{
+background-color: rgb(249, 217, 34);
+    }
+    h1{
+        background-color: rgb(113, 52, 5);
+    }
+
+    .section{
+    background:black;
+    display: flex;
+    }
+
+    .articulos{
+        background-color: rgb(43, 226, 208);
+        display: flex;
+        flex: 2 1 auto;
+        flex-flow: row wrap;
+    }
+    .article{
+        background-color: blue;
+        flex: 1 1 40%;}
+        
+
+        .navegacion{
+            background-color: brown;
+            flex: 1 1 100%;
+    
+        }
+.aside{
+    background-color: aqua;
+    flex: 1 1 auto;
+}
+.publicidad{
+    background-color: darkorange;
+}
+
+    .footer{
+    background: black;
+    }
+
+    .pie{
+        background-color: darkgoldenrod;
+    }
+    
+    @media all and (max-width: 800px){
+        .section{
+            flex-direction: column;
+    }
+            
+        }
+         
+    @media all and (max-width: 600px){
+.articulos{
+    flex-direction: column;
+}
+
+.menu{
+    flex-direction: column
+}
+    }
+    
+
